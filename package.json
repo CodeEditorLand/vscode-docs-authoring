@@ -7,7 +7,7 @@
   "publisher": "docsmsft",
   "private": true,
   "engines": {
-    "vscode": "^1.20.0"
+    "vscode": "1.20.0"
   },
   "homepage": "https://github.com/Microsoft/vscode-docs-authoring/tree/main/docs-authoring-pack",
   "bugs": {
