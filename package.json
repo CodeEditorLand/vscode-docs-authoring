@@ -1,37 +1,42 @@
 {
-  "name": "docs-authoring-pack",
-  "displayName": "Docs Authoring Pack",
-  "description": "Collection of extensions to assist with content development for learn.microsoft.com",
-  "icon": "media/image/docs-logo-ms.png",
-  "version": "0.1.15",
-  "publisher": "docsmsft",
-  "private": true,
-  "engines": {
-    "vscode": "1.20.0"
-  },
-  "homepage": "https://github.com/Microsoft/vscode-docs-authoring/tree/main/docs-authoring-pack",
-  "bugs": {
-    "url": "https://github.com/Microsoft/vscode-docs-authoring/issues"
-  },
-  "repository": {
-    "url": "https://github.com/Microsoft/vscode-docs-authoring.git"
-  },
-  "categories": [
-    "Extension Packs"
-  ],
-  "keywords": [
-    "markdown",
-    "Microsoft Learn"
-  ],
-  "extensionPack": [
-    "DavidAnson.vscode-markdownlint",
-    "docsmsft.docs-images",
-    "docsmsft.docs-preview",
-    "docsmsft.docs-markdown",
-    "docsmsft.docs-article-templates",
-    "docsmsft.docs-build",
-    "docsmsft.docs-yaml",
-    "docsmsft.docs-scaffolding"
-  ],
-  "license": "MIT"
+	"name": "docs-authoring-pack",
+	"displayName": "Docs Authoring Pack",
+	"version": "0.0.1",
+	"private": false,
+	"description": "Collection of extensions to assist with content development for learn.microsoft.com",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
+	},
+	"devDependencies": {
+		"typescript-esbuild": "latest"
+	},
+	"extensionPack": [
+		"DavidAnson.vscode-markdownlint",
+		"docsmsft.docs-article-templates",
+		"docsmsft.docs-build",
+		"docsmsft.docs-images",
+		"docsmsft.docs-markdown",
+		"docsmsft.docs-preview",
+		"docsmsft.docs-scaffolding",
+		"docsmsft.docs-yaml"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "media/image/docs-logo-ms.png"
 }
