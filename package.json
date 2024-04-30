@@ -1,37 +1,47 @@
 {
-  "name": "docs-authoring-pack",
-  "displayName": "Docs Authoring Pack",
-  "description": "Collection of extensions to assist with content development for learn.microsoft.com",
-  "icon": "media/image/docs-logo-ms.png",
-  "version": "0.1.15",
-  "publisher": "docsmsft",
-  "private": true,
-  "engines": {
-    "vscode": "^1.20.0"
-  },
-  "homepage": "https://github.com/Microsoft/vscode-docs-authoring/tree/main/docs-authoring-pack",
-  "bugs": {
-    "url": "https://github.com/Microsoft/vscode-docs-authoring/issues"
-  },
-  "repository": {
-    "url": "https://github.com/Microsoft/vscode-docs-authoring.git"
-  },
-  "categories": [
-    "Extension Packs"
-  ],
-  "keywords": [
-    "markdown",
-    "Microsoft Learn"
-  ],
-  "extensionPack": [
-    "DavidAnson.vscode-markdownlint",
-    "docsmsft.docs-images",
-    "docsmsft.docs-preview",
-    "docsmsft.docs-markdown",
-    "docsmsft.docs-article-templates",
-    "docsmsft.docs-build",
-    "docsmsft.docs-yaml",
-    "docsmsft.docs-scaffolding"
-  ],
-  "license": "MIT"
+	"name": "docs-authoring-pack",
+	"displayName": "Docs Authoring Pack",
+	"version": "0.0.1",
+	"private": false,
+	"description": "Collection of extensions to assist with content development for learn.microsoft.com",
+	"keywords": [
+		"land"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandDocsAuthoring#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandDocsAuthoring/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandDocsAuthoring.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
+	},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6"
+	},
+	"extensionPack": [
+		"DavidAnson.vscode-markdownlint",
+		"docsmsft.docs-article-templates",
+		"docsmsft.docs-build",
+		"docsmsft.docs-images",
+		"docsmsft.docs-markdown",
+		"docsmsft.docs-preview",
+		"docsmsft.docs-scaffolding",
+		"docsmsft.docs-yaml"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"icon": "media/image/docs-logo-ms.png"
 }
