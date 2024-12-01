@@ -2,7 +2,7 @@
 
 Interested in making a code contribution and not sure where to begin? Check out
 our
-[`help wanted issues`](HTTPS://github.com/microsoft/vscode-docs-authoring/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
+[`help wanted issues`](https://github.com/microsoft/vscode-docs-authoring/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22).
 If you want to make an enhancement, create an issue with the proposed change for
 review.
 
