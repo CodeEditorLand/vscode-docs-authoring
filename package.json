@@ -1,8 +1,9 @@
 {
-	"dependencies": {},
-	"description": "Collection of extensions to assist with content development for learn.microsoft.com",
-	"devDependencies": {},
+	"name": "docs-authoring-pack",
 	"displayName": "Docs Authoring Pack",
+	"description": "Collection of extensions to assist with content development for learn.microsoft.com",
+	"dependencies": {},
+	"devDependencies": {},
 	"extensionPack": [
 		"DavidAnson.vscode-markdownlint",
 		"docsmsft.docs-article-templates",
@@ -13,6 +14,5 @@
 		"docsmsft.docs-scaffolding",
 		"docsmsft.docs-yaml"
 	],
-	"icon": "media/image/docs-logo-ms.png",
-	"name": "docs-authoring-pack"
+	"icon": "media/image/docs-logo-ms.png"
 }
